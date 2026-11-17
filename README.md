@@ -199,7 +199,7 @@ The administrator performs the final review and publishes the blog post when rea
 
 ## 📚 Project Documentation
 
-Read the complete [Project Walkthrough]()
+Read the complete [Project Walkthrough](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/f5db9dce4a3b01fda0789e699fc97a01a684ed2b/documentation/PROJECT-WALKTHROUGH.md)
 to understand the workflow architecture, individual steps,
 technologies, and business applications.
 
