@@ -234,16 +234,6 @@ The approved blog content is saved as a WordPress draft, ready for final review 
 
 ---
 
-## 🔐 Security Considerations
-
-This project uses API authentication to connect n8n with external services.
-
-Sensitive information must be stored securely in n8n credentials.
-
-Never publish API keys, WordPress passwords, application passwords, or private credentials in this repository.
-
----
-
 ## 🧠 Skills Demonstrated
 
 - n8n Workflow Development
