@@ -51,31 +51,104 @@ The system:
 
 ## ⚙️ Workflow Architecture
 
-```text
-Blog Topic / Prompt
-        |
-        v
-   n8n Form Trigger
-        |
-        v
-   AI Content Generation
-     (OpenAI / Gemini)
-        |
-        v
-   SEO Content Preparation
-        |
-        v
-   Human Review & Approval
-        |
-        v
-   WordPress Integration
-        |
-        v
-   WordPress Draft
-        |
-        v
-   Manual Review & Publishing
+The following diagram illustrates the complete AI WordPress Blog Automation workflow, from blog topic submission to AI-powered content generation, SEO preparation, human review, and WordPress draft creation.
+
+```mermaid
+flowchart TD
+    A["📝 Blog Topic Submission<br/>n8n Form Trigger"]
+    B["📥 Receive Blog Information<br/>Topic, Keywords & Instructions"]
+    C["⚙️ n8n Automation<br/>Process Input Data"]
+    D["🤖 AI Content Generation<br/>Generate Blog Article"]
+    E["🔍 SEO Content Preparation<br/>Title, Slug, Excerpt & Meta Description"]
+    F["👤 Human Review<br/>Review Generated Content"]
+    G{"Approval Decision"}
+    H["📤 WordPress Integration<br/>WordPress REST API"]
+    I["📄 Create WordPress Draft<br/>Save Blog Content"]
+    J["🚀 Final Review & Publishing"]
+    K["🚫 Reject / Revise Content"]
+
+    L["🧠 AI Model<br/>OpenAI / Google Gemini"]
+    M["🌐 WordPress<br/>Content Management System"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+
+    G -->|Approve| H
+    G -->|Reject / Revise| K
+    K -.->|Make Changes| D
+
+    H --> I
+    I --> J
+
+    L -.-> D
+    L -.-> E
+    M -.-> H
+    C -.-> A
+
+    classDef pending stroke-dasharray: 5 5
+    class F,G,I,J,K pending
 ```
+
+---
+
+## 🔄 Workflow Execution
+
+### Step 1 — Blog Topic Submission
+The user submits a blog topic and instructions through an n8n form.
+
+### Step 2 — Input Processing
+n8n receives and processes the submitted blog information.
+
+### Step 3 — AI Content Generation
+The AI model generates a structured blog article based on the provided topic and instructions.
+
+### Step 4 — SEO Content Preparation
+The workflow prepares SEO-related information, including the title, slug, excerpt, and meta description.
+
+### Step 5 — Human Review
+The generated article is reviewed to ensure content quality and accuracy.
+
+### Step 6 — Approval Decision
+The content moves through an approval decision stage.
+
+- **Approve:** Continue to WordPress integration.
+- **Reject / Revise:** Return the content for changes.
+
+### Step 7 — WordPress Integration
+n8n connects with WordPress through the WordPress REST API.
+
+### Step 8 — Draft Creation
+The approved content is saved as a WordPress draft.
+
+### Step 9 — Final Review & Publishing
+The administrator performs the final review and publishes the blog post when ready.
+
+---
+
+## 🛠️ Technologies Used
+
+- n8n — Workflow Automation
+- OpenAI / Google Gemini — AI Content Generation
+- WordPress — Content Management
+- WordPress REST API — API Integration
+- HTTP Request — API Communication
+- Human Approval — Content Review
+
+---
+
+## 🎯 Business Benefits
+
+- Automates repetitive blog content preparation.
+- Reduces manual content creation work.
+- Generates structured SEO-friendly articles.
+- Integrates AI with WordPress.
+- Maintains human control over publishing.
+- Improves content management efficiency.
+
 
 ## ✨ Key Features
 
