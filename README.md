@@ -197,6 +197,12 @@ The administrator performs the final review and publishes the blog post when rea
 
 ---
 
+## 📚 Project Documentation
+
+Read the complete [Project Walkthrough]()
+to understand the workflow architecture, individual steps,
+technologies, and business applications.
+
 ## 📈 Business Benefits
 
 - Reduces repetitive blog writing tasks.
