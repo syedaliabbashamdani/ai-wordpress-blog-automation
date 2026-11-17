@@ -213,8 +213,10 @@ The approved blog content is saved as a WordPress draft, ready for final review 
 ![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/0400e3233a7dfac934f1c839d682d2cff577baef/screenshots/image%20(2).png)
 
 4. Proper SEO type content with title, slug and content.
+![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/26ae93c3916447b7a5811656187c04c1725c8fdd/screenshots/image%20(3).png)
+
+5. Content save as a draft in wordpress to approve or reject.
 ![image alt]()
-├── wordpress-draft.png
 └── successful-execution.png
 ```
 
