@@ -203,10 +203,10 @@ The approved blog content is saved as a WordPress draft, ready for final review 
 
 ## 📸 Workflow Screenshots
 
-Add your project screenshots here:
+1. Complete overview of ai blog writing workflow.
+![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/14d67c33cdbc5e885b749d8e88bf322dae6dfab5/screenshots/image.png)
 
-```text
-screenshots/
+
 ├── workflow-overview.png
 ├── form-submission.png
 ├── ai-content-generation.png
