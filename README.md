@@ -219,7 +219,7 @@ The approved blog content is saved as a WordPress draft, ready for final review 
 ![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/a1ca6276ea84b9981e72a579e9277f3777679f80/screenshots/image%20(4).png)
 
 6. Complete workflow execute successfully.
-![image alt]()
+![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/c65e4c4d1646c6d59a7076931101c6af877172f6/screenshots/image%20(5).png)
 
 ---
 
