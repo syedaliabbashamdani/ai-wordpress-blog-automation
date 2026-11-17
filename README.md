@@ -209,9 +209,8 @@ The approved blog content is saved as a WordPress draft, ready for final review 
 2. a form submission where you write topic, and keywords etc.
 ![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/80b2511b9ad785cc24eacf154749585559be98c6/screenshots/image%20(1).png)
 
-├── workflow-overview.png
-├── form-submission.png
-├── ai-content-generation.png
+3. Ai agent generate content to post your website.
+![image alt]()
 ├── seo-content-output.png
 ├── wordpress-draft.png
 └── successful-execution.png
