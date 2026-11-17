@@ -210,8 +210,10 @@ The approved blog content is saved as a WordPress draft, ready for final review 
 ![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/80b2511b9ad785cc24eacf154749585559be98c6/screenshots/image%20(1).png)
 
 3. Ai agent generate content to post your website.
+![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/0400e3233a7dfac934f1c839d682d2cff577baef/screenshots/image%20(2).png)
+
+4. Proper SEO type content with title, slug and content.
 ![image alt]()
-├── seo-content-output.png
 ├── wordpress-draft.png
 └── successful-execution.png
 ```
