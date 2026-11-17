@@ -174,32 +174,6 @@ The administrator performs the final review and publishes the blog post when rea
 
 ---
 
-## 🔄 Workflow Process
-
-### 1. Blog Topic Submission
-The workflow receives the blog topic and content instructions through an n8n form.
-
-### 2. AI Content Generation
-The AI model processes the topic and generates the blog article.
-
-### 3. SEO Content Preparation
-The workflow prepares:
-- Blog title
-- URL slug
-- Meta description
-- Article content
-- Excerpt
-
-### 4. Human Review
-The generated content is reviewed before it is sent for WordPress draft creation.
-
-### 5. WordPress Integration
-n8n communicates with WordPress using the WordPress REST API.
-
-### 6. Draft Creation
-The approved blog content is saved as a WordPress draft, ready for final review and publication.
-
----
 
 ## 📸 Workflow Screenshots
 
