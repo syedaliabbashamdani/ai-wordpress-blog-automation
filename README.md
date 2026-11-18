@@ -129,16 +129,6 @@ The administrator performs the final review and publishes the blog post when rea
 
 ---
 
-## 🛠️ Technologies Used
-
-- n8n — Workflow Automation
-- OpenAI / Google Gemini — AI Content Generation
-- WordPress — Content Management
-- WordPress REST API — API Integration
-- HTTP Request — API Communication
-- Human Approval — Content Review
-
----
 
 ## 🎯 Business Benefits
 
