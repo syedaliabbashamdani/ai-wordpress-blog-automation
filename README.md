@@ -185,22 +185,22 @@ The administrator performs the final review and publishes the blog post when rea
 ## 📸 Workflow Screenshots
 
 1. Complete overview of ai blog writing workflow.
-![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/14d67c33cdbc5e885b749d8e88bf322dae6dfab5/screenshots/image.png)
+![Complete Workflow](screenshots/image.png)
 
 2. a form submission where you write topic, and keywords etc.
-![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/80b2511b9ad785cc24eacf154749585559be98c6/screenshots/image%20(1).png)
+![Form Submission](screenshots/image%20(1).png)
 
-3. Ai agent generate content to post your website.
-![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/0400e3233a7dfac934f1c839d682d2cff577baef/screenshots/image%20(2).png)
+4. Ai agent generate content to post your website.
+![AI Content Generation](screenshots/image%20(2).png)
 
-4. Proper SEO type content with title, slug and content.
-![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/26ae93c3916447b7a5811656187c04c1725c8fdd/screenshots/image%20(3).png)
+5. Proper SEO type content with title, slug and content.
+![SEO Generating Content](screenshots/image%20(3).png)
 
-5. Content save as a draft in wordpress to approve or reject.
-![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/a1ca6276ea84b9981e72a579e9277f3777679f80/screenshots/image%20(4).png)
+6. Content save as a draft in wordpress to approve or reject.
+![WordPress Draft ](screenshots/image%20(4).png)
 
-6. Complete workflow execute successfully.
-![image alt](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/c65e4c4d1646c6d59a7076931101c6af877172f6/screenshots/image%20(5).png)
+7. Complete workflow execute successfully.
+![Successful workflow](screenshots/image%20(5).png)
 
 ---
 
