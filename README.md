@@ -1,3 +1,4 @@
+![AI WordPress Blog Automation Banner](banner.png)
 # 📝 AI WordPress Blog Automation
 
 ### AI-Powered Content Generation & WordPress Draft Publishing with n8n
