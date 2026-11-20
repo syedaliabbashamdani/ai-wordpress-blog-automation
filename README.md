@@ -53,6 +53,7 @@ The system:
 
 The following diagram illustrates the complete AI WordPress Blog Automation workflow, from blog topic submission to AI-powered content generation, SEO preparation, human review, and WordPress draft creation.
 
+
 ```mermaid
 flowchart TD
     A["📝 Blog Topic Submission<br/>n8n Form Trigger"]
@@ -90,8 +91,24 @@ flowchart TD
     C -.-> A
 
     classDef pending stroke-dasharray: 5 5
+
     class F,G,I,J,K pending
+
+    style A fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
+    style B fill:#E8EAF6,stroke:#3949AB,stroke-width:2px,color:#1A237E
+    style C fill:#ECEFF1,stroke:#546E7A,stroke-width:2px,color:#263238
+    style D fill:#F3E5F5,stroke:#8E24AA,stroke-width:2px,color:#4A148C
+    style E fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px,color:#E65100
+    style F fill:#E0F2F1,stroke:#00897B,stroke-width:2px,color:#004D40
+    style G fill:#FFF9C4,stroke:#F9A825,stroke-width:2px,color:#795548
+    style H fill:#E8EAF6,stroke:#3949AB,stroke-width:2px,color:#1A237E
+    style I fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#1B5E20
+    style J fill:#C8E6C9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20
+    style K fill:#FCE4EC,stroke:#D81B60,stroke-width:2px,color:#880E4F
+    style L fill:#FCE4EC,stroke:#D81B60,stroke-width:2px,color:#880E4F
+    style M fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
 ```
+
 
 ---
 
